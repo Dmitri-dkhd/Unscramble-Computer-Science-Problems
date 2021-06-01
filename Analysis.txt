@@ -1,0 +1,15 @@
+Task0: Only reads and prints given lines with no loops: O(1)
+
+#fix after the feedback and changes of the lists to sets:
+
+Task1: For loop iterates n times through the list and with set.add() being an O(1): Overall case O(n)
+
+Task2: For loop: O(n), with checking the dictionary would be O(1) and max() also O(n), the overall case is O(n)
+
+Task3: For loop: O(n), if condition through an constant String:O(1),
+for loop through an constant String:O(1) so the full nested loop would
+be O(n). 
+With sorted() having a worst case of O(n log(n)) the overall case is O(n log(n))
+
+Task4: For loop iterates n times through the list: O(n) with a if condition on a set: O(1) #(as mentioned in the feedback)
+       With sorted() having a worst case of O(n log(n)) the overall case is O(n log(n)) 
